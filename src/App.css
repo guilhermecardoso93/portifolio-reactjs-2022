@@ -1,0 +1,70 @@
+ * {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+ }
+
+ body {
+  font-weight: normal;
+  overflor-x: hidden;
+  background-color: #121212 !important;
+ }
+
+ 
+.buttonContact {
+  font-weight: 600;
+  width: auto;
+  max-width: 10rem;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 16px 20px;
+  font-size: 16px;
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+  top: -0.5rem;
+}
+
+.buttonContact span {
+  z-index: 1;
+}
+
+.buttonContact::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  background: rgb(204, 23, 33);
+  background: linear-gradient(
+    130deg,
+    rgba(204, 23, 33, 1) 0%,
+    rgba(147, 11, 11, 1) 40%,
+    rgba(158, 20, 102, 1) 90%
+  );
+  border-radius: 10px;
+
+  background-color: red;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+.buttonContact:hover {
+  color: #fff;
+}
+
+.buttonContact:hover::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}

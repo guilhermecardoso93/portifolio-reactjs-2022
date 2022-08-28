@@ -1,0 +1,7 @@
+.skill-box {
+  diplay: flex;
+  align-itens: center;
+  justify-content: center;
+  margin-top: -20rem;
+  witdh: 50vw;
+}

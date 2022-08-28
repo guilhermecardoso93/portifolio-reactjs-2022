@@ -1,0 +1,16 @@
+.skill-box {
+  padding: 0;
+  margin-bottom: 2rem;
+  position: relative;
+  color: #fff;
+
+}
+
+.skill-slider {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+}
+.skill-slider a img {
+  width: auto;
+}

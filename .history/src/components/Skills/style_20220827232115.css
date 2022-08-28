@@ -1,0 +1,21 @@
+.skill-box {
+  padding: 0;
+  margin-bottom: 2rem;
+  position: relative;
+  color: #fff;
+  top: -12rem;
+}
+
+.skill-slider {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.skill-slider a img {
+  width: auto;
+}
+
+.react-multiple-carousel__arrow .react-multiple-carousel__arrow--right::before {
+  position: relative;
+  right: -5rem;
+}

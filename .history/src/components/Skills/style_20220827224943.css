@@ -1,0 +1,31 @@
+.skill-box {
+  padding: 0 0 50px 0;
+  position: relative;
+  color: #fff;
+
+}
+
+.skill-slider {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: 2rem; 
+}
+.skill-slider a img {
+  width: auto;
+}
+
+@media only screen and (max: 1024, min: 464) {
+  skill-slider {
+    margin-top: -12rem; 
+  }
+}
+/*
+tablet: {
+  breakpoint: { max: 1024, min: 464 },
+  items: 4,
+},
+mobile: {
+  breakpoint: { max: 464, min: 0 },
+  items: 2,
+},

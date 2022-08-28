@@ -1,0 +1,13 @@
+.skill-box {
+  diplay: flex;
+  align-itens: center;
+  justify-content: center;
+  margin-top: -20rem;
+  width: 60rem;
+
+  color: #fff;
+}
+
+.skill-slider {
+  width: 40rem;
+}

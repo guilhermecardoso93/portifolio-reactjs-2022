@@ -1,0 +1,18 @@
+.skill-box {
+  padding: 0 0 50px 0;
+  position: relative;
+  color: #fff;
+
+}
+
+.skill-slider {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  //z-index: -2;
+  top: 2rem; 
+}
+.skill-slider .item img {
+  width: 50%;
+  margin: 0 auto 5px auto;
+}
