@@ -63,7 +63,7 @@ export function Header() {
               }
               onClick={() => onUpdateActiveLink("skills")}
             >
-              Cursos
+              Skills
             </Nav.Link>
             <Nav.Link
               href="#project"

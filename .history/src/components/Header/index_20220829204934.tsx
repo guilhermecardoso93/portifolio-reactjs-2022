@@ -63,10 +63,11 @@ export function Header() {
               }
               onClick={() => onUpdateActiveLink("skills")}
             >
-              Cursos
+              Skills
             </Nav.Link>
             <Nav.Link
               href="#project"
+              id="project"
               className={
                 activeLink === "projects" ? "active navbar-link" : "navbar-link"
               }
