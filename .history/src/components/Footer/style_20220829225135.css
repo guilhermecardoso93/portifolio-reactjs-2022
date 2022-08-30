@@ -1,0 +1,17 @@
+
+.footer img {
+  width: 16%;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #B8B8B8;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+
+.footer-icon{
+  width: 3rem;
+  height: 3rem;
+}

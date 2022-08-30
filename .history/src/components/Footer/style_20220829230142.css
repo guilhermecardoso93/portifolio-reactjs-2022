@@ -1,0 +1,6 @@
+.footer {
+  display: flex;
+  margin: 10rem auto;
+  align-content: center;
+  color: #fff;
+}
