@@ -1,0 +1,7 @@
+.footer {
+  display: flex;
+  margin: auto;
+  align-itens: center;
+  justify-content: space-betweeen;
+  color: #fff;
+}
