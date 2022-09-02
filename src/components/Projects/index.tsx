@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import { ProjectCard } from "../ProjectCard";
 import { projects } from "./projects";
 import TrackVisibility from "react-on-screen";
-//import 'animate.css';
+
 
 import "./style.css";
 import { Curriculo } from "./Curriculo";
@@ -24,7 +24,7 @@ export function Projects() {
                   <h2>Projetos</h2>
                   <p>
                     Projetos feitos a partir dos exercícios dos curso da
-                    Rocketseat e projetos do Youtube e Live de outros
+                    Rocketseat, projetos do Youtube e Live de outros
                     desenvolvedores.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
