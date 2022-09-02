@@ -35,7 +35,7 @@ export function Contact() {
       <Container>
         <Row className="align-items-center">
           <Col className=" flex-1 ">
-            <h3 className="contacth2">Entre Contato Comigo!</h3>
+            <h3 className="contacth2">Entre em contato!</h3>
             <form ref={form} onSubmit={sendEmail}>
               <Row>
                 <Col sm={12} className="px-1">
