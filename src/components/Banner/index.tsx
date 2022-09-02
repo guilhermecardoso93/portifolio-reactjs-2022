@@ -1,5 +1,4 @@
 import { Col, Container, Row } from "react-bootstrap";
-import TrackVisibility from 'react-on-screen';
 
 import "../../App.css";
 import "./style.css";
@@ -31,18 +30,17 @@ export function Banner() {
               Depois de 10 anos no mesmo emprego eu resolvi encontrar um novo caminho e a área de Desenvolvimento me pegou.
               Desde então já faz mais de um ano que comecei a estudar e o Front-End me conquistou.
               <br/>
-              Estudei com vários caminhos e cursos diferentes com o da Rocketseat e CursoEmVideo, estou sempre participando dos eventos como NLW e DevWeek da Alura e o incrível Youtube. <br/>
+              Estudei com vários caminhos e cursos diferentes com o da Rocketseat, CursoEmVideo, estou sempre participando dos eventos como NLW e DevWeek da Alura e o incrível Youtube. <br/>
               Agora estou buscando um oportunidade para entrar no mercado de trabalho para crescer como profissional e como pessoa. Encontrar um empresa ou projeto que vai me fazer evoluir por completo. 
             </p>
             
           </Col>
           <Col xs={12} md={6} xl={5}>
-          <TrackVisibility>
-              {({ isVisible }:any) =>
+        
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
                    <img src="https://www.github.com/guilhermecardoso93.png" />
                 </div>}
-            </TrackVisibility>
+          
            
           </Col>
         </Row>
