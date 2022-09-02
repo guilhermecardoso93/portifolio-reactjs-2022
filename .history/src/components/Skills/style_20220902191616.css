@@ -1,0 +1,44 @@
+.skill-box {
+  padding: 10px;
+  margin-bottom: 0rem;
+  position: relative;
+  color: #fff;
+}
+
+h2 {
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #0d0b93 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.skill-slider {
+  width: 100%;
+  margin: 0 auto;
+  //position: relative;
+  margin-bottom: 2rem;
+
+  display: flex-wrap;
+  flex-wrap: wrap ;
+  //jusity-content: space-between;
+  gap: 0.5rem;
+  //word-wrap: break-word;
+  //word-break: break-word;
+}
+.skill-slider a img {
+  width: auto;
+}
+
+.react-multiple-carousel__arrow .react-multiple-carousel__arrow--right::before {
+  position: relative;
+  right: -5rem;
+}
+
+.cursos ul{
+  display: flex;
+  jusity-content: space-between;
+  gap: 2rem;
+  flex-direction: row;
+  height: 15rem;
+}
