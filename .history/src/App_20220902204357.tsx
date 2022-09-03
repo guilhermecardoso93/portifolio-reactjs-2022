@@ -10,12 +10,26 @@ import { Contact } from "./components/Contact";
 export function App() {
   return (
     <>
-      <Header />
-      <Banner />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      <div className="area">
+        <ul className="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <Header />
+        <Banner />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
     </>
   );
 }

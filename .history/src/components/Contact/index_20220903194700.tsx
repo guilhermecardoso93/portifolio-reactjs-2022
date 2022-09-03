@@ -48,7 +48,7 @@ export function Contact() {
                   <input type="email" name="user_email" placeholder="E-mail" required/>
                 </Col>
                 <Col sm={6} className="px-1">
-                  <input type="tel" name="user_phone" placeholder="Telefone" required />
+                  <input type="tel" name="user_phone" placeholder="Telefone" required oninvalid="this.setCustomValidity(\'Campo requerido\')"/>
                 </Col>
                 <Col size={12} className="px-1">
                   <textarea

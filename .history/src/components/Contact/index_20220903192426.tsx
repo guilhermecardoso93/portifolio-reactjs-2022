@@ -12,23 +12,27 @@ export function Contact() {
   const sendEmail = async (e: any) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_k101ils",
-        "template_7xv6tru",
-        form.current,
-        "RSSU760IHaANuHBew"
-      )
-      .then(
-        (result) => {
-          toast.success("Mensagem enviada! Obrigado.");
-        },
-        (error) => {
-          toast.error("Por favor, escreva alguma coisa :(");
-        }
-      );
+    if (e.target === "") {
+      return;
+    } else {
+      emailjs
+        .sendForm(
+          "service_k101ils",
+          "template_7xv6tru",
+          form.current,
+          "RSSU760IHaANuHBew"
+        )
+        .then(
+          (result) => {
+            toast.success("Mensagem enviada! Obrigado.");
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
 
-    e.target.reset();
+      e.target.reset();
+    }
   };
 
   return (
@@ -41,14 +45,14 @@ export function Contact() {
             <form ref={form} onSubmit={sendEmail}>
               <Row>
                 <Col sm={12} className="px-1">
-                  <input type="text" name="user_name" placeholder="Nome" required/>
+                  <input type="text" name="user_name" placeholder="Nome" />
                 </Col>
 
                 <Col sm={6} className="px-1">
-                  <input type="email" name="user_email" placeholder="E-mail" required/>
+                  <input type="email" name="user_email" placeholder="E-mail" />
                 </Col>
                 <Col sm={6} className="px-1">
-                  <input type="tel" name="user_phone" placeholder="Telefone" required />
+                  <input type="tel" name="user_phone" placeholder="Telefone" />
                 </Col>
                 <Col size={12} className="px-1">
                   <textarea
@@ -56,7 +60,6 @@ export function Contact() {
                     cols={30}
                     placeholder="Mensagem"
                     name="message"
-                    required
                   ></textarea>
                   <button type="submit" className="buttonContact">
                     <span>Enviar</span>
