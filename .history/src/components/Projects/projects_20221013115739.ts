@@ -77,11 +77,5 @@ export const projects = [
     repo: "https://github.com/guilhermecardoso93/desafio8-theblog",
     img: "https://user-images.githubusercontent.com/79944203/155445439-f7188edf-04d3-4420-8323-954bd02043f9.png",
   },
-  {
-    title: "To Do List",
-    url: "https://todolistreact-nine.vercel.app/",
-    repo: "https://github.com/guilhermecardoso93/todolistreact",
-    img: "https://user-images.githubusercontent.com/79944203/195632862-44b74607-7915-4beb-be6b-9772e9cced69.png",
-  },
 
 ];

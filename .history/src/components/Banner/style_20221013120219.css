@@ -1,8 +1,8 @@
 .banner {
-  margin-top: 15rem;
- // overflow-wrap: break-word;
- // word-wrap: break-word;
-//  word-break: break-word;
+  margin-top: 25rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 .banner .tagline {

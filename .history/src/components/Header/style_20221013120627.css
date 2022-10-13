@@ -6,10 +6,14 @@ nav.navbar {
   z-index: 2;
   transition: 0.32s ease-in-out;
   align-itens:center;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #121212;
 }
 
+nav.navbar.scrolled {
+  padding: 0px 0;
+  background-color: #121212;
+}
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
