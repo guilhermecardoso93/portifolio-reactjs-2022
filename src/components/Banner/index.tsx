@@ -25,7 +25,7 @@ export function Banner() {
                 incrível Youtube. <br />
                 &nbsp;&nbsp;&nbsp;&nbsp; Agora estou buscando um oportunidade
                 para entrar no mercado de trabalho para crescer como
-                profissional e como pessoa. Encontrar um empresa ou projeto que
+                profissional e como pessoa. Encontrar uma empresa ou projeto que
                 vai me fazer evoluir por completo.
               </p>
             </Col>

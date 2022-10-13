@@ -9,4 +9,5 @@ Projeto feito em ReacJS - Vite
 
 
 
-![porti](https://user-images.githubusercontent.com/79944203/188042438-98ad949f-6da9-4d15-a2c1-fa75b4c89512.png)
+
+![portifolio-reactjs-2022 vercel app_](https://user-images.githubusercontent.com/79944203/191385619-e2db0b33-f442-45c8-b22f-fe6a814665f0.png)
